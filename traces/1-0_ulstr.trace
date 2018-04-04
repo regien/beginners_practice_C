@@ -1,0 +1,148 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r3p17.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Mon Jan 22 21:13:42 PST 2018
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/c-exam-alone-in-the-dark-beginner/practice-exam_20180123/gmalpart2
+
+= Git history ==================================================================
+$> git -C /var/folders/97/qpsq8lcx3kxdx6wbrznc5n600000gp/T/tmpQylI9n/user log --pretty='%H - %an, %ad : %s'
+09b6f97a5162c40de9eaf2e71f439e4ebbe79716 - regien, Mon Jan 22 21:13:06 2018 -0800 : pendejada
+163ff401a7575304a9a81fa31b6b5e3f6c1246dc - regien, Mon Jan 22 21:11:33 2018 -0800 : pendejada
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/97/qpsq8lcx3kxdx6wbrznc5n600000gp/T/tmpQylI9n/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  498 Jan 22 21:13 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Jan 22 21:13 only_a
+drwxr-xr-x  3 deepthought  deepthought  102 Jan 22 21:13 ulstr
+
+/var/folders/97/qpsq8lcx3kxdx6wbrznc5n600000gp/T/tmpQylI9n/user/only_a:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1094 Jan 22 21:13 only_a.c
+
+/var/folders/97/qpsq8lcx3kxdx6wbrznc5n600000gp/T/tmpQylI9n/user/ulstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  553 Jan 22 21:13 ulstr.c
+ 
+= ulstr ========================================================================
+$> gcc -Wextra -Wall -Werror ulstr.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./7tb6hp3iedyb72u6zy9dvd64 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./49mr5xn2rro3bf4t1cmthr75 
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ggca1lifkz891w3je98twmlj "ldAoeDEHnyQzKB"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./ti7wusgb8vmgpu2ed2hw15e2 " 5pf8JshtCojuD46n1OSVXJ6DK3Qs 5"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./hyfnywmrwect8lvzi8lnbgsj "5ZyfF5ex2owbpK/iCjk1ZtD4NXrayJQ/IXvWLKBDYCyMFtc7N20Vb;juUOXPv7B8kMnmu5YpPdWs=O1iY (lcKmvfubO4ZhaFJE9vwg>V2E8XzWc35gf4D1I (snTcjzXqt2NV ,PTgMW6dIaZwslc4X9VCMshYv32g 4TC9lN4dgPZeT5NyhapMe+mdy5bEZVpUl74oMh)9ch1 >mCUG0Fdq2zVsA6w7o*"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./rsm118pay94lzqkcge6yqh7a "8VsYXCO5fnm/Wm8Jhsr5X =a9qPj63ZziIsmWHyLeJNSb =gHCbRu+ZpS8dbeqKoy9	   awkdF	@mMOTFbdq 	>dgbjq."
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./163j7srv1ticpip5t4bq32j0 "@jKc>oC0xEW I48vVXG9kxz3UOCKk3dJ8LuhQ4NibStVqeRT4jdugZ0lInJWGtyaRc	VSWuiOI	JtIrTpmVG3j 	Rm0c2UNACx7d32SuQPNMH 3QTnRP	<r1v	"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./6wx6lbkphug8k4d84yqqefun "	 	 7DxtIBpSGNEn5Uljcs)sFyD8Wm7	 5vZw7k)ZuNg4AD3Y,KZpV53FIJQrm  NJqp:REf15jJKg3rOqVc=gJvW	-MPuSO9  =FPQZxErV4cp85JCa,lir5y5i	*RPO2TCWDIx5SgkF	.kOHYxrT0SscXMbRW	/ECyJDcAmNHh30r5jkSL62lNI*"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./a047a0pnw1bn51aamigwpum4 "	 -G5EdFONiTR	@cRy1 2oWLN3s4T0FVQE	)xqr ="
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./s9e4y2co5gr2fzkqs6j7oxvc "		  Q1vqx	HmQzxo:mEHP2QK4E51Bi9vnrpw/fAnX6HdLVEt3"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./uf1b4ykgd3a4xx6icms2u53t "7JjvcfQAXOS	Ihax0e 	=y65zBSZGg21k-cI3  (QLe12wjk6omDStOr/"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./eio3jwn9n047cm2plyc7hgl5 " 	9vhtpsQ1bW2Rf5NmCK:9b6/rXuHgsax3Et780mCP>tBJ2jEw0QlLeUO0uSGw	+LEy9rbqVUYt2z8<qEoYrF<k4tji2N5sw1oFKn <LtJqyd9/imYfWeGFxK80DabNcr4OfS8J8u4pd7m	3"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+= Test 13 ==================================================
+$> ./3nwfn0ngw6idd5o9267boqd2 "7bJo7G 3cagzHYUowGe0Kx6mOb3nZujP8CIhX85lPgSG3s4VERk8ZdEnTR52OiPJ1e-NRpcLEoXfunwZ/MVes5XIyUbaQH3,8oaciLXH6gk1Jv7dM1UYesV6RNpP3co		13LywDxH2V9lg8		,nCycxHwqhsXmd "
+$> diff -U 3 user_output_test13 test13.output | cat -e
+
+Diff OK :D
+= Test 14 ==================================================
+$> ./1q8i6fbx80u57rn4z2z535sq ">EVT5ohjBwOdY29K8Q;nl4Uer5uaA5pcAHuCTsrj8EYR4D12gKAe5j5yc8sOoz2nr1li2"
+$> diff -U 3 user_output_test14 test14.output | cat -e
+
+Diff OK :D
+= Test 15 ==================================================
+$> ./fcxivzlkusarne78dv4xks2x "	?hRDIVpNL7Bk   	oA8	0vRc4nkwKSrZDP	isvbUtK7Loe4V8GbWXd2KYP:zTovHWU26Zglc8m0K7ybINdFT	?"
+$> diff -U 3 user_output_test15 test15.output | cat -e
+
+Diff OK :D
+= Test 16 ==================================================
+$> ./vygv73eoebt9edclfey7ujce ")Hqi4Kla7NvMog	:Au5*W761PKOdDM4vV himupsb7OtFvYSl5f:eFaM4rgUPQuGHD/iaZrJzYFP-j9NuyUkJCKTP1gSflJmnqRuQ6EDIk>1xBNhDt			/"
+$> diff -U 3 user_output_test16 test16.output | cat -e
+
+Diff OK :D
+= Test 17 ==================================================
+$> ./ro7k0m6t05ax0b6inxdobdni "	 7DNBCORK6oQUPdrfH007Opr @cWFK8gtlp,"
+$> diff -U 3 user_output_test17 test17.output | cat -e
+
+Diff OK :D
+= Test 18 ==================================================
+$> ./n8u7mptc1ex6qkoc29fbmcr3 "0soZ2gdbOY4U9zT55IbmfT2jhE6ePYAgT>zL86beMPrWno ?kIWfmLJ0RNsviDYF	-JipHY8vK	/imaEN421guLcd8v0;EdlIhskwuG	 	>szImXxoSeuVWO 7Wq9fKudkbFltpa4"
+$> diff -U 3 user_output_test18 test18.output | cat -e
+
+Diff OK :D
+= Test 19 ==================================================
+$> ./xwji6l4mk1mg3ms2gmuarh1n "3tkTq6315UMQ0mEjsv1ZeXMWc3"
+$> diff -U 3 user_output_test19 test19.output | cat -e
+
+Diff OK :D
+= Test 20 ==================================================
+$> ./xmlfwdm96qsbk6knfh62eo6m ">OPG481pRbtTC6uHlA		0bPWD0wsOv5F5TCmLvVWO 152OE6wYkhgtQ7p,UAVxiR5y6oglAFnIWr	uY6CNXShtHA1m5I9	 jktsogre7WAunO(yeMAUk	8"
+$> diff -U 3 user_output_test20 test20.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

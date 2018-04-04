@@ -1,0 +1,47 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z4r14p11.42.us.org
+Darwin 17.0.0 x86_64
+$> date
+Mon Jan 22 21:11:38 PST 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.35)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.35)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/c-exam-alone-in-the-dark-beginner/practice-exam_20180123/gmalpart2
+
+= Git history ==================================================================
+$> git -C /var/folders/k4/xm1x5_c54y9_p8dg3lk206900000gp/T/tmpWY0UFi/user log --pretty='%H - %an, %ad : %s'
+163ff401a7575304a9a81fa31b6b5e3f6c1246dc - regien, Mon Jan 22 21:11:33 2018 -0800 : pendejada
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/k4/xm1x5_c54y9_p8dg3lk206900000gp/T/tmpWY0UFi/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  244 Jan 22 21:11 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Jan 22 21:11 only_a
+
+/var/folders/k4/xm1x5_c54y9_p8dg3lk206900000gp/T/tmpWY0UFi/user/only_a:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1094 Jan 22 21:11 only_a.c
+ 
+= only_a =======================================================================
+$> gcc -Wextra -Wall -Werror only_a.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./lavg5s667ae2k6obrs7iljh0 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================

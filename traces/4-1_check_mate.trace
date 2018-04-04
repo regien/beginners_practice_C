@@ -1,0 +1,84 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z4r14p3.42.us.org
+Darwin 17.0.0 x86_64
+$> date
+Tue Jan 23 00:23:59 PST 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.35)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.35)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/c-exam-alone-in-the-dark-beginner/practice-exam_20180123/gmalpart2
+
+= Git history ==================================================================
+$> git -C /var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user log --pretty='%H - %an, %ad : %s'
+dc9a6f5a6420b08905a0571638733363fb1110eb - regien, Tue Jan 23 00:20:19 2018 -0800 : pendejada
+fef6a86559fe83075ba73367e5cd41455db6a089 - regien, Mon Jan 22 22:39:36 2018 -0800 : huevos peludos
+3b162992de51cd05e105796d41a29adfa67bce61 - regien, Mon Jan 22 22:37:08 2018 -0800 : huevos peludos
+09b6f97a5162c40de9eaf2e71f439e4ebbe79716 - regien, Mon Jan 22 21:13:06 2018 -0800 : pendejada
+163ff401a7575304a9a81fa31b6b5e3f6c1246dc - regien, Mon Jan 22 21:11:33 2018 -0800 : pendejada
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1502 Jan 23 00:24 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Jan 23 00:24 hidenp
+drwxr-xr-x  5 deepthought  deepthought   170 Jan 23 00:24 inter
+drwxr-xr-x  3 deepthought  deepthought   102 Jan 23 00:24 only_a
+drwxr-xr-x  3 deepthought  deepthought   102 Jan 23 00:24 rostring
+drwxr-xr-x  3 deepthought  deepthought   102 Jan 23 00:24 ulstr
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/hidenp:
+total 8
+-rw-r--r--  1 deepthought  deepthought  584 Jan 23 00:24 hidenp.c
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/inter:
+total 32
+-rw-r--r--  1 deepthought  deepthought   738 Jan 23 00:24 inter.c
+-rwxr-xr-x  1 deepthought  deepthought  9288 Jan 23 00:24 test
+drwxr-xr-x  3 deepthought  deepthought   102 Jan 23 00:24 test.dSYM
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/inter/test.dSYM:
+total 0
+drwxr-xr-x  4 deepthought  deepthought  136 Jan 23 00:24 Contents
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/inter/test.dSYM/Contents:
+total 8
+-rw-r--r--  1 deepthought  deepthought  633 Jan 23 00:24 Info.plist
+drwxr-xr-x  3 deepthought  deepthought  102 Jan 23 00:24 Resources
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/inter/test.dSYM/Contents/Resources:
+total 0
+drwxr-xr-x  3 deepthought  deepthought  102 Jan 23 00:24 DWARF
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/inter/test.dSYM/Contents/Resources/DWARF:
+total 24
+-rw-r--r--  1 deepthought  deepthought  9915 Jan 23 00:24 test
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/only_a:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1094 Jan 23 00:24 only_a.c
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/rostring:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1532 Jan 23 00:24 rostring.c
+
+/var/folders/1l/wrcnz8xd54gg_6gztgtdv3vh0000gp/T/tmp_lLPsF/user/ulstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  553 Jan 23 00:24 ulstr.c
+ 
+= check_mate ===================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade: 0 ===============================================================
