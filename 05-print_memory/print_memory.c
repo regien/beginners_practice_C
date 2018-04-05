@@ -39,6 +39,10 @@ void	sp_putchar(unsigned char const *ptr)
 		write(1, ".", 1);
 }
 
+/*
+ * it's basically a really complex way to print in base 16
+ */
+
 void	print_memory(const void *addr, size_t size)
 {
 	size_t		i;
